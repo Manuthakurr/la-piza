@@ -536,6 +536,9 @@ table {
   text-decoration: none;
   list-style-type: none;
 }
+.fa-brands {
+  color: #fff;
+}
 .bk {
   background-color: black;
   margin-top: 100px;
