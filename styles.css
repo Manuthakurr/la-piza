@@ -427,6 +427,10 @@ table {
 .bks {
   margin-top: 50px !important;
 }
+.header_btn {
+  display: flex;
+  align-items: center;
+}
 /* map */
 .map {
   background-image: url("Map.jpg");
@@ -606,5 +610,8 @@ table {
   }
   .mobile_nav {
     background-color: #fe1e1e !important;
+  }
+  .header_btn {
+    display: none !important;
   }
 }
