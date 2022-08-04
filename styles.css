@@ -401,6 +401,9 @@ table {
 .btnu:hover {
   transform: scale(1.1);
 }
+.mobile_color {
+  color: white;
+}
 
 /* follow on insta */
 .gal_item {
@@ -543,6 +546,12 @@ table {
   background-color: black;
   margin-top: 100px;
 }
+.mobile_car {
+  display: none;
+}
+.desktop_car {
+  display: block;
+}
 /***Desktop style**/
 @media (min-width: 768px) {
   .newslatter form input:first-child {
@@ -581,6 +590,7 @@ table {
     width: 100%;
     height: auto;
   }
+
   .banner-text {
     text-align: center;
     padding-top: 50px;
@@ -616,5 +626,11 @@ table {
   }
   .header_btn {
     display: none !important;
+  }
+  .desktop_car {
+    display: none;
+  }
+  .mobile_car {
+    display: block;
   }
 }
